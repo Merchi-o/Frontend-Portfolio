@@ -1,0 +1,30 @@
+.row{
+    padding: 20px;
+    background-color: black;
+}
+.contenedor{
+    width: auto;
+    }
+.parte1, .parte2{
+    display: inline-block;
+    text-align: justify;
+}
+div{
+    color: aquamarine;
+}
+#tituloproyectos{
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+#agregarproyectoboton {
+    color: aquamarine;
+    font-weight: bold;
+}
+#colortextoproyecto{
+    color: aquamarine;
+}
+#botoneditar{
+    background-color:black;
+    color: aquamarine;
+}

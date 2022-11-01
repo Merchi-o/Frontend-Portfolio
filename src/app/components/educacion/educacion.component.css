@@ -1,0 +1,27 @@
+.row{
+    padding: 20px;
+    }
+div{
+    background-color:black;
+    text-align: center;
+    color: aquamarine;
+}
+h2,h3{
+    display: inline;
+}
+#agregareducacionboton {
+    color: aquamarine;
+    font-weight: bold;
+}
+#tituloeducacion{
+    font-weight: bold;
+    font-size: 40px;
+}
+#textoeducacion{
+    color: aquamarine;
+    text-align: left;
+}
+#botoneditar{
+    background-color:black;
+    color: aquamarine;
+}

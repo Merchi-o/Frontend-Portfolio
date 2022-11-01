@@ -1,0 +1,29 @@
+.row{
+    padding: 20px;
+    }
+div{
+    background-color:black;
+    text-align: center;
+    color: aquamarine;
+    margin: 0;
+}
+h2,h3{
+    display: inline;
+}
+#tituloexperiencia{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#nuevaexperienciaboton{
+    color: aquamarine;
+    font-weight: bold;
+}
+#textoexperiencias{
+    color: aquamarine;
+    text-align: left;
+}
+#botoneditar{
+    background-color:black;
+    color: aquamarine;
+}

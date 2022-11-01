@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+#logoAP{
+    width: 150px;
+}
+
+
+#botonlogin{
+    color: aquamarine;
+    border-color: aquamarine;
+}
+.redes{
+    padding-right: 0.5em;
+    width: 50px;
+}
+a{
+    font-size: 30px;
+    padding: 25px;
+    color: aquamarine;
+}
+.btn{
+    border-width: medium;
+    margin-right: 10px;
+}
+
+/* Para celulares*/
+@media (max-width: 575px){
+.container{
+    flex-direction: column;
+}
+.redes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.redes a{
+    margin: 0.2em;
+}
+}

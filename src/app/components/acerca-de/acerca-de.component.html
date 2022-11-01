@@ -1,0 +1,20 @@
+<div class="row">
+    
+    <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+        <img src="../../../assets/profile-image.png" class="img-fluid" id="fotodeperfil">
+    </div>
+    <div class="col-xs-12 col-sm-2 col-md-2 col-lg-3">
+        <p id="nombre">Martina Orellana</p>
+        <p id="textoFullStack">Full Stack Developer Jr</p>
+    </div>
+    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-7 descripcion">
+        <span>
+            <h2 id="acercademi">Acerca de mi</h2>
+            <p>{{Persona.descripcion}}</p>
+        </span>
+    </div>
+    <button type="button" class="btn btn-primary" routerLink="/editacercade/1" *ngIf="isLogged">
+        Editar persona
+    </button>
+</div>
+

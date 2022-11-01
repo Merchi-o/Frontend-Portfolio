@@ -1,0 +1,25 @@
+.row{
+    background-color: black;
+    color: aquamarine;
+    padding: 20px;
+}
+
+.circulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#hystitulo{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+#botoneditar{
+    background-color:black;
+    color: aquamarine;
+    border-color: aquamarine;
+}
+#agregarhysboton {
+    color: aquamarine;
+    font-weight: bold;
+}
